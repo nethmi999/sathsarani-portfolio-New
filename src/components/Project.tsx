@@ -4,6 +4,7 @@ import flower from '../assets/images/flower.png';
 import job from '../assets/images/job.png';
 import candyc from '../assets/images/candyc.png';
 import web from '../assets/images/web.png';
+import event from '../assets/images/event.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -32,10 +33,10 @@ function Project() {
                 </div>
 
                 <div className="project">
-                    <a href="https://www.figma.com/design/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/proto/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?node-id=3-2&starting-point-node-id=3%3A2&t=qjAlO4AZuvQM27kl-1" target="_blank" rel="noreferrer">
                         <img src={job} className="zoom" alt="Job app thumbnail" width="100%" />
                     </a>
-                    <a href="https://www.figma.com/design/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
+                    <a href="https://www.figma.com/proto/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?node-id=3-2&starting-point-node-id=3%3A2&t=qjAlO4AZuvQM27kl-1" target="_blank" rel="noreferrer">
                         <h2>Job Seeking App</h2>
                     </a>
                     <p>Designed the job seeking app that helps users find jobs matching their interests</p>
@@ -59,6 +60,15 @@ function Project() {
                         <h2>Craigslist Website</h2>
                     </a>
                     <p>Craigslist Website Recreated UI/UX Design (University Group Project)</p>
+                </div>
+                <div className="project">
+                    <a href="https://www.figma.com/design/Czyg0LndgrT6jiEKoZPvW3/Event-Boking-and-Management-App?node-id=2002-3&p=f&t=EQBxB6pSnJxCsgdB-0" target="_blank" rel="noreferrer">
+                        <img src={event} className="zoom" alt="Craigslist website thumbnail" width="100%" />
+                    </a>
+                    <a href="https://www.figma.com/design/Czyg0LndgrT6jiEKoZPvW3/Event-Boking-and-Management-App?node-id=2002-3&p=f&t=EQBxB6pSnJxCsgdB-0" target="_blank" rel="noreferrer">
+                        <h2>Event Managment & Booking Website</h2>
+                    </a>
+                    <p>Customers can easily booking the event and location website UI/UX Design </p>
                 </div>
             </div>
         </div>
