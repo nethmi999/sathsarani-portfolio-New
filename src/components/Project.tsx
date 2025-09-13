@@ -13,7 +13,10 @@ function Project() {
     return (
         <div className="projects-container" id="projects">
             <h1>Projects</h1>
+           
             <div className="projects-grid">
+
+                {/* 
                 <div className="project">
                     <a href="https://www.figma.com/design/Mo426xpt00aaEaCNgz9TF0/skincare?node-id=0-1&p=f&t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
                         <img src={beauty} className="zoom" alt="Skin care app thumbnail" width="100%" />
@@ -23,6 +26,7 @@ function Project() {
                     </a>
                     <p>Designed the user interface in Skin Care App</p>
                 </div>
+                */}
 
                 <div className="project">
                     <a href="https://www.figma.com/proto/HLrb6d5KU41anbWdMXu1p8/Event?node-id=73-3&starting-point-node-id=31%3A11&t=baLuSOsNDp3HNd1C-1" target="_blank" rel="noreferrer">
@@ -63,20 +67,9 @@ function Project() {
                     <a href="https://www.figma.com/proto/YPxZEChdAAinfkb7XSFGY0/Untitled?node-id=137-242&starting-point-node-id=137%3A242&t=TNRcoLuYMzkN9nZV-1" target="_blank" rel="noreferrer">
                         <h2>Craigslist Website</h2>
                     </a>
-                    <p>Craigslist Website Recreated UI/UX Design (University Group Project)</p>
+                    <p>Craigslist Website Recreated UI/UX Design </p>
                 </div>
 
-                {/* TODO: Re-enable when needed → Event Management project
-                <div className="project">
-                    <a href="https://www.figma.com/design/Czyg0LndgrT6jiEKoZPvW3/Event-Boking-and-Management-App?node-id=2002-3&p=f&t=EQBxB6pSnJxCsgdB-0" target="_blank" rel="noreferrer">
-                        <img src={event} className="zoom" alt="Event Management website thumbnail" width="100%" />
-                    </a>
-                    <a href="https://www.figma.com/design/Czyg0LndgrT6jiEKoZPvW3/Event-Boking-and-Management-App?node-id=2002-3&p=f&t=EQBxB6pSnJxCsgdB-0" target="_blank" rel="noreferrer">
-                        <h2>Event Managment & Booking Website</h2>
-                    </a>
-                    <p>Customers can easily booking the event and location website UI/UX Design</p>
-                </div>
-                */}
             </div>
         </div>
     );
